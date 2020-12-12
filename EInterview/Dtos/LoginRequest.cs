@@ -1,4 +1,4 @@
-﻿namespace EInterview.Dtos
+﻿namespace EInterview.Controllers
 {
     public class LoginRequest
     {

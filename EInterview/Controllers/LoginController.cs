@@ -1,5 +1,4 @@
-﻿using EInterview.Dtos;
-using EInterview.Services;
+﻿using EInterview.Services;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq;
 
@@ -7,11 +6,11 @@ namespace EInterview.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class UserController : ControllerBase
+    public class LoginController : ControllerBase
     {
         private readonly IAuthService authService;
 
-        public UserController(IAuthService authService)
+        public LoginController(IAuthService authService)
         {
             this.authService = authService;
         }
