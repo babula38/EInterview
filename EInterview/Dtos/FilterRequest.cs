@@ -1,4 +1,6 @@
-﻿namespace EInterview.Controllers
+﻿using EInterview.Domain.Entities;
+
+namespace EInterview.Dtos
 {
     public class FilterRequest
     {

@@ -1,4 +1,4 @@
-﻿namespace EInterview.Controllers
+﻿namespace EInterview.Dtos
 {
     public class UserProfileRequest
     {

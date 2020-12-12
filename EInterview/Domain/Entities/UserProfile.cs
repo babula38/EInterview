@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using EInterview.Domain.Entities;
+using System.Collections.Generic;
 
-namespace EInterview.Controllers
+namespace EInterview.Domain.Entities
 {
     public class UserProfile
     {

@@ -1,4 +1,4 @@
-﻿namespace EInterview.Controllers
+﻿namespace EInterview.Services
 {
     public interface IAuthService
     {

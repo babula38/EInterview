@@ -1,4 +1,8 @@
-﻿namespace EInterview.Controllers
+﻿using EInterview.Controllers;
+using EInterview.Domain.Entities;
+using EInterview.Infra;
+
+namespace EInterview.Services
 {
     public interface IUserProfileService
     {

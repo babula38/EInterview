@@ -1,7 +1,9 @@
-﻿using System.Collections;
+﻿using EInterview.Controllers;
+using EInterview.Domain.Entities;
+using System.Collections;
 using System.Collections.Generic;
 
-namespace EInterview.Controllers
+namespace EInterview.Infra
 {
     public class DbStorage
     {

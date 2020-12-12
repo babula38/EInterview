@@ -1,4 +1,4 @@
-﻿namespace EInterview.Controllers
+﻿namespace EInterview.Domain.Entities
 {
     public class Product
     {

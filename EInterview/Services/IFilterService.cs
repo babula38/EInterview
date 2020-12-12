@@ -1,6 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using EInterview.Domain.Entities;
+using EInterview.Infra;
+using System.Collections.Generic;
 
-namespace EInterview.Controllers
+namespace EInterview.Services
 {
     public interface IFilterService
     {
