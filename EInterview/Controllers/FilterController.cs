@@ -15,8 +15,8 @@ namespace EInterview.Controllers
 
         private IFilterService _filterservice { get; }
 
-        [HttpGet]
-        public IActionResult Get(FilterRequest request)
+        [HttpPost]
+        public IActionResult Post(FilterRequest request)
         {
             return Ok(_filterservice.Filter(request.Type, request.Low, request.High));
         }

@@ -11,8 +11,8 @@ namespace EInterview.Infra
         {
             RecentlyViewedProducts = new List<Product>
             {
-                new Product { Price = 500 },
-                new Product { Price = 100 }
+                new Product { Price = 500,Name="Prod 1" },
+                new Product { Price = 100,Name="Prod 2"  }
             }
         };
 

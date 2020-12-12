@@ -15,8 +15,8 @@ namespace EInterview.Controllers
             this.userProfileService = userProfileService;
         }
 
-        [HttpGet]
-        public IActionResult Get(UserProfileRequest request)
+        [HttpPost]
+        public IActionResult Post(UserProfileRequest request)
         {
             var userProfile = userProfileService.GetProfile(request.UserId);
             if (userProfile != null) return Ok(userProfile);
